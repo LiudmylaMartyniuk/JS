@@ -107,7 +107,7 @@ let people = [
 
 displayObjects(people);
 
-// - створити функцію, яка повертає найменьше число з масиву
+// - створити функцію, яка повертає найменше число з масиву
 
 function smallestNumber(arr){
     let smallest = arr[0];
@@ -147,20 +147,23 @@ console.log(swap([1, 2, 3, 4, 5, 6], 0, 5));
 
 function exchange(sumUAH,currencyValues,exchangeCurrency) {
     let exchangedAmount;
-    if (exchangeCurrency === 'USD'){
-        if(`${currencyValues[0].currency}` === 'USD') {
-            exchangedAmount = sumUAH / `${currencyValues[0].value}`;
-        } else {
-            exchangedAmount = sumUAH / `${currencyValues[1].value}`;
+    for(const currencyValue of currencyValues) {
+        if (exchangeCurrency === 'USD') {
+            if (currencyValue.currency === 'USD') {
+                exchangedAmount = sumUAH / currencyValue.value;
+            }
         }
-    } else {
-        if(`${currencyValues[0].currency}` === 'EUR') {
-            exchangedAmount = sumUAH / `${currencyValues[0].value}`;
-        } else {
-            exchangedAmount = sumUAH / `${currencyValues[1].value}`;
+        if (currencyValue.currency === 'EUR') {
+            if (currencyValue.currency === 'EUR') {
+                exchangedAmount = sumUAH / currencyValue.value;
+            }
+        }
+        if (currencyValue.currency !== 'EUR' && 'USD') {
+            console.log('Unknown currency');
+            exchangedAmount = 0;
         }
     }
     return Math.round(exchangedAmount);
 }
 
-console.log(exchange(3000,[{currency:'EUR',value:41}, {currency:'USD',value:37}],'USD'));
+console.log(exchange(3700,[{currency:'NOK',value:3.4}, {currency:'USD',value:37}],'NOK'));
