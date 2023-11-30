@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a0376eb7-6a79-4c4a-83a5-b79efea953d8" name="Changes" comment="23-Nov">
-      <change afterPath="$PROJECT_DIR$/Lesson_3/JS_Lesson_3_HW.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson_3/JS_Lesson_3_HW.js" afterDir="false" />
+    <list default="true" id="a0376eb7-6a79-4c4a-83a5-b79efea953d8" name="Changes" comment="28-Nov">
+      <change afterPath="$PROJECT_DIR$/Lesson_4/JS_Lesson_4_HW.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lesson_4/JS_Lesson_4_HW.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -33,28 +33,38 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/Liudmyla_Martyniuk/IdeaProjects/JS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Liudmyla_Martyniuk/IdeaProjects/JS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Liudmyla_Martyniuk\IdeaProjects\JS" />
       <recent name="C:\Users\Liudmyla_Martyniuk\IdeaProjects\JS\Lesson_2" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="JS_Lesson_4_HW.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/Lesson_4/JS_Lesson_4_HW.js" working-dir="$PROJECT_DIR$/Lesson_4">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Node.js.JS_Lesson_4_HW.js" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -73,7 +83,9 @@
       <workItem from="1701167911406" duration="596000" />
       <workItem from="1701169894809" duration="602000" />
       <workItem from="1701181936777" duration="4458000" />
-      <workItem from="1701186707741" duration="3862000" />
+      <workItem from="1701186707741" duration="4096000" />
+      <workItem from="1701256680571" duration="4288000" />
+      <workItem from="1701288204834" duration="13002000" />
     </task>
     <task id="LOCAL-00001" summary="21-Nov">
       <option name="closed" value="true" />
@@ -91,7 +103,15 @@
       <option name="project" value="LOCAL" />
       <updated>1700758190494</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="28-Nov">
+      <option name="closed" value="true" />
+      <created>1701190665997</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1701190665997</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -100,6 +120,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="21-Nov" />
     <MESSAGE value="23-Nov" />
-    <option name="LAST_COMMIT_MESSAGE" value="23-Nov" />
+    <MESSAGE value="28-Nov" />
+    <option name="LAST_COMMIT_MESSAGE" value="28-Nov" />
   </component>
 </project>
