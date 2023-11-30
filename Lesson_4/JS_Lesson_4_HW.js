@@ -148,22 +148,11 @@ console.log(swap([1, 2, 3, 4, 5, 6], 0, 5));
 function exchange(sumUAH,currencyValues,exchangeCurrency) {
     let exchangedAmount;
     for(const currencyValue of currencyValues) {
-        if (exchangeCurrency === 'USD') {
-            if (currencyValue.currency === 'USD') {
-                exchangedAmount = sumUAH / currencyValue.value;
-            }
-        }
-        if (currencyValue.currency === 'EUR') {
-            if (currencyValue.currency === 'EUR') {
-                exchangedAmount = sumUAH / currencyValue.value;
-            }
-        }
-        if (currencyValue.currency !== 'EUR' && 'USD') {
-            console.log('Unknown currency');
-            exchangedAmount = 0;
+        if (currencyValue.currency === exchangeCurrency) {
+            exchangedAmount = sumUAH / currencyValue.value;
         }
     }
     return Math.round(exchangedAmount);
 }
 
-console.log(exchange(3700,[{currency:'NOK',value:3.4}, {currency:'USD',value:37}],'NOK'));
+console.log(exchange(3700,[{currency:'NOK',value:3.4}, {currency:'USD',value:37}],'USD'));
