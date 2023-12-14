@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a0376eb7-6a79-4c4a-83a5-b79efea953d8" name="Changes" comment="05-Dec">
-      <change afterPath="$PROJECT_DIR$/Lesson_6/JS_Lesson_6_HW.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson_6/JS_Lesson_6_HW.js" afterDir="false" />
+    <list default="true" id="a0376eb7-6a79-4c4a-83a5-b79efea953d8" name="Changes" comment="0k7-Dec">
+      <change afterPath="$PROJECT_DIR$/Lesson_7/JS_Lesson_7_HW.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lesson_7/JS_Lesson_7_HW.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -95,7 +95,9 @@
       <workItem from="1701859882793" duration="234000" />
       <workItem from="1701863991481" duration="815000" />
       <workItem from="1701877265324" duration="8709000" />
-      <workItem from="1701950655264" duration="536000" />
+      <workItem from="1701950655264" duration="1158000" />
+      <workItem from="1702394001134" duration="15174000" />
+      <workItem from="1702568877873" duration="594000" />
     </task>
     <task id="LOCAL-00001" summary="21-Nov">
       <option name="closed" value="true" />
@@ -153,7 +155,15 @@
       <option name="project" value="LOCAL" />
       <updated>1701727375116</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="0k7-Dec">
+      <option name="closed" value="true" />
+      <created>1701952103737</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1701952103737</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -167,6 +177,18 @@
     <MESSAGE value="30-Nov - 2" />
     <MESSAGE value="30-Nov - 3" />
     <MESSAGE value="05-Dec" />
-    <option name="LAST_COMMIT_MESSAGE" value="05-Dec" />
+    <MESSAGE value="0k7-Dec" />
+    <option name="LAST_COMMIT_MESSAGE" value="0k7-Dec" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/Lesson_7/JS_Lesson_7_HW.js</url>
+          <line>164</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
