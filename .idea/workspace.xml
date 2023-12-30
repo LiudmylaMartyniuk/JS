@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a0376eb7-6a79-4c4a-83a5-b79efea953d8" name="Changes" comment="0k7-Dec">
-      <change afterPath="$PROJECT_DIR$/Lesson_7/JS_Lesson_7_HW.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson_7/JS_Lesson_7_HW.js" afterDir="false" />
+    <list default="true" id="a0376eb7-6a79-4c4a-83a5-b79efea953d8" name="Changes" comment="14-Dec">
+      <change afterPath="$PROJECT_DIR$/Lesson_12/JS_Lesson_12_HW.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lesson_8/JS_Lesson_8_HW.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lesson_8/JS_Lesson_8_HW.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -97,7 +98,11 @@
       <workItem from="1701877265324" duration="8709000" />
       <workItem from="1701950655264" duration="1158000" />
       <workItem from="1702394001134" duration="15174000" />
-      <workItem from="1702568877873" duration="594000" />
+      <workItem from="1702568877873" duration="4829000" />
+      <workItem from="1703004898631" duration="886000" />
+      <workItem from="1703179156070" duration="1085000" />
+      <workItem from="1703772660752" duration="10983000" />
+      <workItem from="1703949108768" duration="11732000" />
     </task>
     <task id="LOCAL-00001" summary="21-Nov">
       <option name="closed" value="true" />
@@ -163,7 +168,15 @@
       <option name="project" value="LOCAL" />
       <updated>1701952103737</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="14-Dec">
+      <option name="closed" value="true" />
+      <created>1702571146786</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1702571146786</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -178,7 +191,8 @@
     <MESSAGE value="30-Nov - 3" />
     <MESSAGE value="05-Dec" />
     <MESSAGE value="0k7-Dec" />
-    <option name="LAST_COMMIT_MESSAGE" value="0k7-Dec" />
+    <MESSAGE value="14-Dec" />
+    <option name="LAST_COMMIT_MESSAGE" value="14-Dec" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
