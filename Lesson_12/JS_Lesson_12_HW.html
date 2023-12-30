@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+.classUsedID {
+    background: deeppink;
+}
+    </style>
+</head>
+<body>
+
+
+<script>
+    // setTimeout(() => {
+    //     console.log('1');
+    //     }, 1000);
+    // setTimeout(() => {
+    //     console.log('2');
+    // }, 2000);
+
+//***************************************************************************************
+
+    // setTimeout(() => {
+    //     console.log('1');
+    //     setTimeout(() => {
+    //         console.log('2');
+    //         setTimeout(() => {
+    //             console.log('3');
+    //             setTimeout(() => {
+    //                 console.log('4');
+    //                 setTimeout(() => {
+    //                     console.log('5');
+    //                 }, 1000);
+    //             }, 1000);
+    //         }, 1000);
+    //     }, 1000);
+    // }, 1000);
+
+//***************************************************************************************
+
+    // let obitcianka = new Promise((someResolve) => {
+    //     setTimeout(() => {
+    //         console.log('I fulfilled the promise');
+    //         someResolve();
+    //     }, 2000);
+    // });
+    //
+    // let obitcianka2 = obitcianka
+    //     .then(() => new Promise((someResolve) => {
+    //         setTimeout(() => {
+    //             console.log('I fulfilled the promise 2');
+    //             someResolve();
+    //         }, 2000);
+    //     }));
+    //
+    // obitcianka
+    //     .then(() => new Promise((someResolve) => setTimeout(() => console.log('I fulfilled the promise 3'), 1000)));
+
+//***************************************************************************************
+
+    // let obitcianka = new Promise((someResolve) => {
+    //     let counter = 1;
+    //     let secondVar = 0;
+    //     setTimeout(() => {
+    //         console.log(counter, secondVar);
+    //         counter++;
+    //         someResolve(counter, secondVar);
+    //     }, 1000);
+    // });
+    //
+    // let obitcianka2 = obitcianka
+    //     .then((counter, secondVar) => {return new Promise((someResolve) => {
+    //         setTimeout(() => {
+    //             console.log(counter, secondVar);
+    //             counter++;
+    //             someResolve(counter, secondVar);
+    //         }, 1000);
+    //     })});
+    //
+    // obitcianka2
+    //     .then((counter, secondVar) => {return new Promise((someResolve) => {
+    //         setTimeout(() => {
+    //             console.log(counter, secondVar);
+    //             counter++;
+    //         }, 1000);
+    //     })});
+
+//***************************************************************************************
+
+    // let obitcianka = new Promise((someResolve, reject) => {
+    //     let counter = 1;
+    //     setTimeout(() => {
+    //         console.log(counter);
+    //         counter++;
+    //         someResolve(counter);
+    //     }, 1000);
+    // }).then((counter) => {return new Promise((someResolve, reject) => {
+    //         setTimeout(() => {
+    //             if (counter === 2){
+    //                 reject('Counter is 2');
+    //             }
+    //             console.log(counter);
+    //             counter++;
+    //             someResolve(counter);
+    //         }, 1000);
+    //     })})
+    //     .then((counter) => {return new Promise((someResolve, reject) => {
+    //         setTimeout(() => {
+    //             console.log(counter);
+    //             counter++;
+    //         }, 1000);
+    //     })}).catch(r => {console.log(r)});
+
+//***************************************************************************************
+
+// fetch('https://jsonplaceholder.typicode.com/albums')
+//     .then(response => {return response.json()}) //return new Promise
+//     .then(value => console.log(value));
+
+//***************************************************************************************
+
+    fetch('https://jsonplaceholder.typicode.com/albums')
+        .then(response => response.json()) //return new Promise
+        .then(albums => {
+            for (const album of albums) {
+                let div = document.createElement('div');
+                div.innerText = album.id + ' ' + album.title;
+                if(album.userId === 1) {
+                    div.classList.add('classUsedID');
+                }
+                document.body.appendChild(div);
+            }
+        }
+        );
+
+//***************************************************************************************
+
+// let bothJsons = Promise.all([
+//     fetch('https://jsonplaceholder.typicode.com/users').then(value => value.json()),
+//     fetch ('https://jsonplaceholder.typicode.com/posts').then(value => value.json())
+//
+// ]);
+//
+// console.log(bothJsons);
+
+//***************************************************************************************
+
+    // async function withAsynchronuosRequest() {
+    //     let users = await fetch('https://jsonplaceholder.typicode.com/users')
+    //         .then(value => value.json())
+    //         .then(value => console.log(value))
+    // }
+    // withAsynchronuosRequest();
+
+    //***************************************************************************************
+
+    async function withAsynchronuosRequest() {
+        let users = await fetch('https://jsonplaceholder.typicode.com/users')
+            .then(value => value.json())
+
+        let posts = await fetch('https://jsonplaceholder.typicode.com/posts')
+            .then(value => value.json())
+
+        console.log(posts);
+        console.log(users);
+    }
+    withAsynchronuosRequest(); // Promise
+
+</script>
+</body>
+</html>
+
+
+
