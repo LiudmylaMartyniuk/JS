@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a0376eb7-6a79-4c4a-83a5-b79efea953d8" name="Changes" comment="30-Dec" />
+    <list default="true" id="a0376eb7-6a79-4c4a-83a5-b79efea953d8" name="Changes" comment="01-Jan" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -201,6 +201,17 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="21-Nov" />
     <MESSAGE value="23-Nov" />
@@ -212,7 +223,8 @@
     <MESSAGE value="0k7-Dec" />
     <MESSAGE value="14-Dec" />
     <MESSAGE value="30-Dec" />
-    <option name="LAST_COMMIT_MESSAGE" value="30-Dec" />
+    <MESSAGE value="01-Jan" />
+    <option name="LAST_COMMIT_MESSAGE" value="01-Jan" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
