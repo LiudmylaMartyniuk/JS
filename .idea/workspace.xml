@@ -4,18 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a0376eb7-6a79-4c4a-83a5-b79efea953d8" name="Changes" comment="01-Jan">
-      <change afterPath="$PROJECT_DIR$/Lesson_10/Index/JS_Lesson_10_HW_Task3-Index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson_10/Index/JS_Lesson_10_HW_Task3-Index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson_10/JS_Lesson_10_HW_Task1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson_10/JS_Lesson_10_HW_Task1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson_10/JS_Lesson_10_HW_Task2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson_10/JS_Lesson_10_HW_Task2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson_10/Sessions/JS_Lesson_10_HW_Task3-Sessions.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson_12/JS_Lesson_12_1st_page.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson_12/JS_Lesson_12_HW.js" afterDir="false" />
+    <list default="true" id="a0376eb7-6a79-4c4a-83a5-b79efea953d8" name="Changes" comment="04-Jan">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lesson_12/JS_Lesson_12_HW.html" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson_11/JS_Lesson_11_HW.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lesson_12/JS_Lesson_12_1st_page.html" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson_12/JS_Lesson_12_1st_page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lesson_12/JS_Lesson_12_HW.js" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson_12/JS_Lesson_12_HW.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +18,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -44,23 +37,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/Liudmyla_Martyniuk/IdeaProjects/JS/Lesson_12",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Liudmyla_Martyniuk/IdeaProjects/JS/Lesson_12&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Liudmyla_Martyniuk\IdeaProjects\JS\Lesson_12" />
@@ -118,7 +111,15 @@
       <workItem from="1703772660752" duration="10983000" />
       <workItem from="1703949108768" duration="12054000" />
       <workItem from="1704274623708" duration="649000" />
-      <workItem from="1704379372355" duration="3525000" />
+      <workItem from="1704379372355" duration="3763000" />
+      <workItem from="1704442613722" duration="831000" />
+      <workItem from="1704456226931" duration="2032000" />
+      <workItem from="1704465222994" duration="220000" />
+      <workItem from="1704741750729" duration="7328000" />
+      <workItem from="1704794888978" duration="4687000" />
+      <workItem from="1704799669966" duration="792000" />
+      <workItem from="1704800560108" duration="1799000" />
+      <workItem from="1704806393322" duration="410000" />
     </task>
     <task id="LOCAL-00001" summary="21-Nov">
       <option name="closed" value="true" />
@@ -224,7 +225,15 @@
       <option name="project" value="LOCAL" />
       <updated>1704113915833</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="04-Jan">
+      <option name="closed" value="true" />
+      <created>1704382964532</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1704382964532</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -253,7 +262,8 @@
     <MESSAGE value="14-Dec" />
     <MESSAGE value="30-Dec" />
     <MESSAGE value="01-Jan" />
-    <option name="LAST_COMMIT_MESSAGE" value="01-Jan" />
+    <MESSAGE value="04-Jan" />
+    <option name="LAST_COMMIT_MESSAGE" value="04-Jan" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

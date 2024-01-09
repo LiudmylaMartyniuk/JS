@@ -12,7 +12,7 @@ fetch('http://jsonplaceholder.typicode.com/users')
             let listItem = document.createElement('li');
             let a = document.createElement('a');
             a.innerText = `${user.id}: ${user.name}`;
-            a.href=`https://jsonplaceholder.typicode.com/users/` + JSON.stringify(user.id);
+            a.href=`../Lesson_12/user-details.html?userId=${user.id}`;
             listItem.appendChild(a);
             ul.appendChild(listItem);
         }
