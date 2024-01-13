@@ -4,10 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a0376eb7-6a79-4c4a-83a5-b79efea953d8" name="Changes" comment="04-Jan">
+    <list default="true" id="a0376eb7-6a79-4c4a-83a5-b79efea953d8" name="Changes" comment="09-Jan">
+      <change afterPath="$PROJECT_DIR$/Lesson_12_2ndSolve/2_JS_2_HW.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lesson_12_2ndSolve/2_JS_Lesson_12_1st_page.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lesson_12_2ndSolve/2_JS_Lesson_12_HW.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lesson_12_2ndSolve/user-details.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lesson_12/JS_Lesson_12_1st_page.html" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson_12/JS_Lesson_12_1st_page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lesson_12/JS_2_HW.js" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson_12/JS_2_HW.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Lesson_12/JS_Lesson_12_HW.js" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson_12/JS_Lesson_12_HW.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/Task_1/Task_1.html" beforeDir="false" afterPath="$PROJECT_DIR$/Project/Task_1/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/Task_1/Task_1.js" beforeDir="false" afterPath="$PROJECT_DIR$/Project/Task_1/js_for_index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/Task_1/User-details.html" beforeDir="false" afterPath="$PROJECT_DIR$/Project/Task_1/User-details.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,8 +24,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -44,7 +51,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Liudmyla_Martyniuk/IdeaProjects/JS/Lesson_12&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Liudmyla_Martyniuk/IdeaProjects/JS&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -56,13 +63,14 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Liudmyla_Martyniuk\IdeaProjects\JS\Lesson_12" />
       <recent name="C:\Users\Liudmyla_Martyniuk\IdeaProjects\JS" />
+      <recent name="C:\Users\Liudmyla_Martyniuk\IdeaProjects\JS\Lesson_12" />
       <recent name="C:\Users\Liudmyla_Martyniuk\IdeaProjects\JS\Lesson_10" />
       <recent name="C:\Users\Liudmyla_Martyniuk\IdeaProjects\JS\Lesson_10\Sessions" />
       <recent name="C:\Users\Liudmyla_Martyniuk\IdeaProjects\JS\Lesson_2" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Liudmyla_Martyniuk\IdeaProjects\JS\Project\Task_1" />
       <recent name="C:\Users\Liudmyla_Martyniuk\IdeaProjects\JS\Lesson_10\Sessions" />
       <recent name="C:\Users\Liudmyla_Martyniuk\IdeaProjects\JS\Lesson_10\Index" />
     </key>
@@ -119,7 +127,16 @@
       <workItem from="1704794888978" duration="4687000" />
       <workItem from="1704799669966" duration="792000" />
       <workItem from="1704800560108" duration="1799000" />
-      <workItem from="1704806393322" duration="410000" />
+      <workItem from="1704806393322" duration="1684000" />
+      <workItem from="1704808102336" duration="2055000" />
+      <workItem from="1704812821906" duration="15318000" />
+      <workItem from="1704882319629" duration="36000" />
+      <workItem from="1704896623640" duration="115000" />
+      <workItem from="1704896816681" duration="980000" />
+      <workItem from="1704961326949" duration="3017000" />
+      <workItem from="1704966687604" duration="14482000" />
+      <workItem from="1705001525452" duration="8428000" />
+      <workItem from="1705056271313" duration="17125000" />
     </task>
     <task id="LOCAL-00001" summary="21-Nov">
       <option name="closed" value="true" />
@@ -233,7 +250,31 @@
       <option name="project" value="LOCAL" />
       <updated>1704382964532</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="09-Jan">
+      <option name="closed" value="true" />
+      <created>1704806845828</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1704806845828</updated>
+    </task>
+    <task id="LOCAL-00016" summary="09-Jan">
+      <option name="closed" value="true" />
+      <created>1704812928245</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1704812928245</updated>
+    </task>
+    <task id="LOCAL-00017" summary="09-Jan">
+      <option name="closed" value="true" />
+      <created>1704817418379</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1704817418379</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -263,7 +304,8 @@
     <MESSAGE value="30-Dec" />
     <MESSAGE value="01-Jan" />
     <MESSAGE value="04-Jan" />
-    <option name="LAST_COMMIT_MESSAGE" value="04-Jan" />
+    <MESSAGE value="09-Jan" />
+    <option name="LAST_COMMIT_MESSAGE" value="09-Jan" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

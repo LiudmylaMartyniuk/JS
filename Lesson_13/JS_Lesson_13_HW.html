@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Recursion</title>
+    <style>
+
+    </style>
+</head>
+<body>
+<h1 style="margin: 30px;  text-align:center;"><i>User Details</i></h1>
+<ul id="userDetailsList"></ul>
+
+<script>
+    // fetch(`https://jsonplaceholder.typicode.com/users/1`)
+    //     .then(response => response.json())
+    //     .then(details => {
+    //         console.log(details)
+    //         function recursiveLooper(details){
+    //             for (const detailsKey in details) {
+    //                 // if(typeof detailsKey === 'object'){
+    //                 if(typeof details[detailsKey] === 'object'){
+    //                     recursiveLooper(details[detailsKey]);
+    //                 } else {
+    //                     console.log(detailsKey + ": " + details[detailsKey])
+    //                 }
+    //         }
+    //         }
+    //         recursiveLooper(details);
+    //     })
+
+    fetch(`https://jsonplaceholder.typicode.com/users/1`)
+        .then(response => response.json())
+        .then(details => {
+            console.log(details)
+            function recursiveLooper(details){
+                let ul = document.getElementById('userDetailsList');
+                for (const detailsKey in details) {
+                    // if(typeof detailsKey === 'object'){
+                    if(typeof details[detailsKey] === 'object'){
+                        recursiveLooper(details[detailsKey]);
+                    } else {
+                        let li = document.createElement('li');
+                        li.innerText = detailsKey + ": " + details[detailsKey];
+                        ul.append(li);
+                        console.log(detailsKey + ": " + details[detailsKey])
+                    }
+                }
+            }
+            recursiveLooper(details);
+        })
+
+</script>
+</body>
+</html>
+
+
+
