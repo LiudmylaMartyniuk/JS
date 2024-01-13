@@ -6,13 +6,19 @@
 fetch('https://jsonplaceholder.typicode.com/users')
     .then(response => response.json())
     .then(users => {
-        let block = document.getElementById('userList');
+        let userList = document.getElementById('userList');
         for (const user of users) {
             let div = document.createElement('div');
+            div.classList.add('smallBlock');
+            div.innerText = `${user.id}. ${user.name}`;
             let a = document.createElement('a');
-            a.innerText = `${user.id}: ${user.name}`;
+            a.innerText = "See the user details";
             a.href=`../Task_1/User-details.html?users=${user.id}`;
             div.appendChild(a);
-            block.appendChild(div);
+                // console.log(`${user.id}`)
+            let block = document.getElementsByClassName('block')[0];
+            block.append(div);
+            userList.append(block);
+            console.log(block);
         }
     });
