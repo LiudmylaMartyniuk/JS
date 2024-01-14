@@ -21,4 +21,4 @@ fetch('https://jsonplaceholder.typicode.com/users')
             userList.append(block);
             console.log(block);
         }
-    });
+    })

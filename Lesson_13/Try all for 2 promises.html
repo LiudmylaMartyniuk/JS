@@ -16,8 +16,17 @@
             margin: 0;
             overflow-x: hidden;
         }
-        #userDetailsList{
-            text-align:center;
+        #userDetails {
+            width: 30%;
+            height: 15%;
+            margin: 0 33%;
+            padding: 1px 10px;
+            background-color: #e0e1e0;
+            border: 2px solid rgba(3, 45, 134, 0.64);
+            border-radius: 5px;
+        }
+        ul{
+            text-align: start;
             list-style-type: none;
             padding: 0;
         }
@@ -25,17 +34,17 @@
             width: 90%;
             height: 6vh;
             background-color: #acc4ee;
-            margin: 0 5% 0 5%;
+            margin: 1% 5% 1% 5%;
         }
         .titleDiv{
             width: 16%;
-            height: 47%;
+            height: 35%;
             padding: 10px;
             margin: 4px;
             background-color: #fcf5f5;
+            border-radius: 5px;
         }
         #postsDiv{
-            /*text-align:center;*/
             display: flex;
             flex-wrap: wrap;
             width: 100vw;
@@ -47,8 +56,10 @@
     </style>
 </head>
 <body>
-<h1 style="padding: 20px;  text-align:center;"><i>User Details</i></h1>
-<ul id="userDetailsList"></ul>
+<h1 style="text-align:center;"><i>User Details</i></h1>
+<div id="userDetails">
+    <ul id="userDetailsList"></ul>
+</div>
 <button id="buttonId"></button>
 <div id="postsDiv"></div>
 <!--<button onclick="hideShow()">Posts of the current user</button>-->
@@ -82,14 +93,18 @@
             function recursiveLooper(details){
                 let ul = document.getElementById('userDetailsList');
                 for (const detailsKey in details) {
-                    // if(typeof detailsKey === 'object'){
                     if(typeof details[detailsKey] === 'object'){
+                        let insideObject = document.createElement('ul');
+                        let li = document.createElement('li');
+                        li.innerText = detailsKey.toUpperCase() + ": ";
+                        insideObject.append(li);
+                        ul.append(insideObject);
                         recursiveLooper(details[detailsKey]);
                     } else {
                         let li = document.createElement('li');
                         li.innerText = detailsKey + ": " + details[detailsKey];
                         ul.append(li);
-                        // console.log(detailsKey + ": " + details[detailsKey])
+                        console.log(detailsKey + ": " + details[detailsKey])
                     }
                 }
             }
@@ -104,26 +119,26 @@
         fetch(`https://jsonplaceholder.typicode.com/users/${userId}`)
             .then(response => response.json())
             .then(details =>
-         fetch('https://jsonplaceholder.typicode.com/posts?userId=' + details.id)
-             .then(response => response.json())
-             .then(postsOfUser => {
-                 console.log(postsOfUser)
-                 for (const post of postsOfUser) {
-                     // console.log(post.title)
-                     // console.log(typeof post.title)
-                     let postsDiv = document.getElementById('postsDiv');
-                     let titleDiv = document.createElement('div');
-                     titleDiv.classList.add('titleDiv');
-                     let a2 = document.createElement('a');
-                     a2.innerText = post.id + '. Post title: ' + post.title;
-                     a2.href=`../Task_1/Post-details.html?posts=${post.id}`;
-                     titleDiv.appendChild(a2);
-                     postsDiv.append(titleDiv);
-                 }
-                 document.body.append(postsDiv);
-             }))
-        // btn.replaceChildren();
-    })
+                fetch('https://jsonplaceholder.typicode.com/posts?userId=' + details.id)
+                    .then(response => response.json())
+                    .then(postsOfUser => {
+                        console.log(postsOfUser)
+                        for (const post of postsOfUser) {
+                            // console.log(post.title)
+                            // console.log(typeof post.title)
+                            let postsDiv = document.getElementById('postsDiv');
+                            let titleDiv = document.createElement('div');
+                            titleDiv.classList.add('titleDiv');
+                            let a2 = document.createElement('a');
+                            a2.innerText = post.id + '. Title: "' + post.title + '"';
+                            a2.href = `../Task_1/Post-details.html?posts=${post.id}`;
+                            titleDiv.appendChild(a2);
+                            postsDiv.append(titleDiv);
+                        }
+                        document.body.append(postsDiv);
+                    }))
+    }, {once: true})
+
 </script>
 </body>
 </html>
