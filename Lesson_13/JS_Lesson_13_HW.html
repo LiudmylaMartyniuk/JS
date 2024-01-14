@@ -38,6 +38,11 @@
                 for (const detailsKey in details) {
                     // if(typeof detailsKey === 'object'){
                     if(typeof details[detailsKey] === 'object'){
+                        let insideObject = document.createElement('ul');
+                        let li = document.createElement('li');
+                        li.innerText = detailsKey.toUpperCase() + ": ";
+                        insideObject.append(li);
+                        ul.append(insideObject);
                         recursiveLooper(details[detailsKey]);
                     } else {
                         let li = document.createElement('li');
