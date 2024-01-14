@@ -13,7 +13,7 @@ fetch('https://jsonplaceholder.typicode.com/users')
             div.innerText = `${user.id}. ${user.name}`;
             let a = document.createElement('a');
             a.innerText = "See the user details";
-            a.href=`../Task_1/User-details.html?users=${user.id}`;
+            a.href=`User-details.html?users=${user.id}`;
             div.appendChild(a);
                 // console.log(`${user.id}`)
             let block = document.getElementsByClassName('block')[0];
