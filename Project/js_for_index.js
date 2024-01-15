@@ -19,6 +19,6 @@ fetch('https://jsonplaceholder.typicode.com/users')
             let block = document.getElementsByClassName('block')[0];
             block.append(div);
             userList.append(block);
-            console.log(block);
+            // console.log(block);
         }
     })
