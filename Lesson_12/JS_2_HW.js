@@ -24,7 +24,6 @@ fetch(`http://jsonplaceholder.typicode.com/users/${userId}`)
         let lng = document.createElement('li');
         let phone = document.createElement('li');
         let website = document.createElement('li');
-        let company = document.createElement('li');
         let companyName = document.createElement('li');
         let catchPhrase = document.createElement('li');
         let bs = document.createElement('li');
