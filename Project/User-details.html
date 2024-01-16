@@ -30,11 +30,16 @@
             list-style-type: none;
             padding: 0;
         }
+        .li1{
+            color: rgba(64, 64, 231, 0.84);
+            font-weight: bold;
+        }
         #buttonId{
             width: 90%;
             height: 6vh;
             background-color: #acc4ee;
             margin: 1% 5% 1% 5%;
+            border-radius: 5px;
         }
         .titleDiv{
             width: 16%;
@@ -77,6 +82,7 @@
                     if(typeof details[detailsKey] === 'object'){
                         let insideObject = document.createElement('ul');
                         let li = document.createElement('li');
+                        li.classList.add('li1');
                         li.innerText = detailsKey.toUpperCase() + ": ";
                         insideObject.append(li);
                         ul.append(insideObject);
